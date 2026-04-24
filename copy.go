@@ -23,9 +23,9 @@ func (c *Copy) run() {
 }
 
 func (c *Copy) Submit() {
-	dqueue.Push(func() {
+	dqueue.PushFront(func() {
 		c.run()
-	}, 0, false)
+	})
 }
 
 func copyPath(src, dst string) error {

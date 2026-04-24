@@ -20,7 +20,7 @@ func (d *Delete) run() {
 }
 
 func (d *Delete) Submit() {
-	dqueue.Push(func() {
+	dqueue.PushFront(func() {
 		d.run()
-	}, 0, false)
+	})
 }

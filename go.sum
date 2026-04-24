@@ -1,2 +1,4 @@
 github.com/SonabaTeam/dqueue v0.0.0-20260409124303-3fd52b51bd15 h1:M2rpsNOwufElQTo3nZzJ6zjHOzwTOg+rRmpUiVHFbjw=
 github.com/SonabaTeam/dqueue v0.0.0-20260409124303-3fd52b51bd15/go.mod h1:52hcGbQMDkl2iUCGx7r7i+jWfYBcvKIcG2lUo0zLRVA=
+github.com/SonabaTeam/dqueue v0.0.0-20260424141435-fa2603a6e72f h1:EkjcsUTbCK+AOe5iVfRvGlJpJyQBhR7DmRx32u6B6oA=
+github.com/SonabaTeam/dqueue v0.0.0-20260424141435-fa2603a6e72f/go.mod h1:52hcGbQMDkl2iUCGx7r7i+jWfYBcvKIcG2lUo0zLRVA=
