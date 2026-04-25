@@ -6,3 +6,5 @@ github.com/SonabaTeam/dqueue v0.0.0-20260424144041-d253ed08956d h1:IKJlruIs9fvU9
 github.com/SonabaTeam/dqueue v0.0.0-20260424144041-d253ed08956d/go.mod h1:52hcGbQMDkl2iUCGx7r7i+jWfYBcvKIcG2lUo0zLRVA=
 github.com/SonabaTeam/dqueue v0.0.0-20260425144407-8cca5d07e444 h1:ZjdiVUXnwdDAkYjhv2hbToKYcfNQA5SsMf3ViXfXlfA=
 github.com/SonabaTeam/dqueue v0.0.0-20260425144407-8cca5d07e444/go.mod h1:52hcGbQMDkl2iUCGx7r7i+jWfYBcvKIcG2lUo0zLRVA=
+github.com/SonabaTeam/dqueue v0.0.0-20260425155101-8a90b9cfb7f8 h1:6pfjXI06gCk/hqrNJUiZsCgEKKSkDjUGq0DJELCXpV4=
+github.com/SonabaTeam/dqueue v0.0.0-20260425155101-8a90b9cfb7f8/go.mod h1:52hcGbQMDkl2iUCGx7r7i+jWfYBcvKIcG2lUo0zLRVA=
