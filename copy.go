@@ -4,8 +4,6 @@ import (
 	"io"
 	"os"
 	"path/filepath"
-
-	"github.com/SonabaTeam/dqueue"
 )
 
 type Copy struct {
@@ -14,18 +12,13 @@ type Copy struct {
 	Fn      func(err error)
 }
 
-func (c *Copy) run() {
-	err := copyPath(c.SrcPath, c.NewPath)
-
-	if c.Fn != nil {
-		c.Fn(err)
-	}
-}
-
 func (c *Copy) Submit() {
-	dqueue.Push(func() {
-		c.run()
-	}, 0)
+	go func() {
+		err := copyPath(c.SrcPath, c.NewPath)
+		if c.Fn != nil {
+			c.Fn(err)
+		}
+	}()
 }
 
 func copyPath(src, dst string) error {
