@@ -6,7 +6,7 @@ import "github.com/SonabaTeam/fsops"
 c := fsops.Copy{
 	SrcPath: "your source folder path", 
 	NewPath: "your new folder path", 
-	Fn     : func(err error) { 
+	Callback     : func(err error) { 
 		// HERE EXECUTE YOUR CODE WHEN FOLDER COMPLETED COPY
   },
 }
@@ -15,7 +15,7 @@ c.Submit() // SUBMIT YOUR REQUEST FOR FOLDER COPY
 // FOR DELETE
 d := fsops.Delete{
 	SrcPath: "your source folder path", 
-	Fn     : func(err) { 
+	Callback     : func(err) { 
 		// HERE EXECUTE YOUR CODE WHEN FOLDER COMPLETED DELETE
 	},
 }
